@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+
+@layer base {
+    h1 {
+        @apply text-4xl font-semibold mb-6;
+    }
+    h2 {
+        @apply text-3xl font-medium mb-4;
+    }
+    h3 {
+        @apply text-2xl font-medium mb-2;
+    }
+    blockquote {
+        @apply border-l-4 pl-4 italic text-gray-600 bg-gray-50 mb-4; /* Adjust styles as needed */
+    }
+    p {
+        @apply mb-4 font-light; /* Adds margin to paragraphs */
+    }
+    /* Line breaks (if you're using <br> tags) */
+    br {
+        @apply mb-2; /* Adds space below line breaks */
+    }
+    emp {
+        @apply text-blue-500 font-semibold; /* Adds emphasis to text */   
+    }
+}
+
+.text-color{
+    color: #2c2c2a;
+}
+
+.text-new{
+    color: #0B3041;
+}
+.bg-new{
+    background: #0B3041;
+}
