@@ -7,7 +7,7 @@
     "build": "run-s build:*",
     "dev:11ty": "eleventy --serve",
     "dev:css": "tailwindcss -i src/style.css -o public/style.css --watch",
-    "build:11ty": "npx eleventy",
+    "build:11ty": "eleventy",
     "build:css": "tailwindcss -i src/style.css -o public/style.css"
   },
   "repository": {
